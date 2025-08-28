@@ -14,7 +14,7 @@ Additional Information:
 
 # 📡 ESP32-S3 ↔ MAX485 ↔ Bambulab AMS
 
-This project demonstrates how to connect an **ESP32-S3 DevKit (Wemos, 32 Pins)** with a **MAX485 module** to the **Bambulab AMS (Auxiliary Material System)**. This enables serial RS485 communication between the AMS and the ESP32-S3.
+This project demonstrates how to connect an **ESP32-S3 DevKit** with a **MAX485 module** to the **Bambulab AMS (Auxiliary Material System)**. This enables serial RS485 communication between the AMS and the ESP32-S3.
 
 ---
 
