@@ -22,8 +22,8 @@ This project demonstrates how to connect an **ESP32-S3 DevKit (Wemos, 32 Pins)**
 
 | ESP32-S3 Pin | MAX485 Pin | Description            |
 |--------------|------------|-------------------------|
-| GPIO 16      | RO         | RS485 → ESP32-S3 (RX)  |
-| GPIO 17      | DI         | ESP32-S3 → RS485 (TX)  |
+| GPIO 18      | RO         | RS485 → ESP32-S3 (RX)  |
+| GPIO 19      | DI         | ESP32-S3 → RS485 (TX)  |
 | GPIO 5       | DE & RE    | Direction control      |
 | GND          | GND        | Ground                 |
 | VIN (5 V)    | VCC        | MAX485 power supply    |
@@ -65,8 +65,8 @@ According to [Bambulab Wiki – AMS Connector Pinout](https://wiki.bambulab.com/
  Pin 5 (NC)  ── ✗
  Pin 6 (NC)  ── ✗
 
-                             RO ────────────────► GPIO16 (RX)
-                             DI ────────────────► GPIO17 (TX)
+                             RO ────────────────► GPIO18 (RX)
+                             DI ────────────────► GPIO19 (TX)
                          DE+RE ────────────────► GPIO5
                              VCC ───────────────► VIN (5V)
 ```
