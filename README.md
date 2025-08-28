@@ -56,8 +56,8 @@ According to [Bambulab Wiki – AMS Connector Pinout](https://wiki.bambulab.com/
 ## 🖼️ Connection Diagram
 
 ```text
- Bambulab AMS (6-Pin)              MAX485                ESP32-S3 (Wemos 32-Pin)
- ──────────────────────           ────────              ─────────────────────
+ Bambulab AMS (6-Pin)              MAX485                ESP32-S3
+ ──────────────────────           ────────              ─────────
  Pin 1 (A)  ─────────────────────► A
  Pin 2 (B)  ─────────────────────► B
  Pin 3 (GND) ────────────────────► GND ────────────────► GND
